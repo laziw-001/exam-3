@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Nosifer&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prociono&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quantico", sans-serif;
+  background-color: black;
+  color: white;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #272c3d;
+  padding: 20px;
+}
+.header-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-parent__left {
+  display: flex;
+  gap: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+span {
+    color: #FF9C28;
+}
+.header-parent__right {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.header-parent__right input {
+  border: none;
+  outline: none;
+  background-color: #404864;
+  padding-left: 5px;
+}
+.input-parent {
+    display: flex;
+    align-items: center;
+  background-color: #404864;
+  border-radius: 5px;
+}
+.header-parent__right select {
+  background-color: #00000080;
+  color: white;
+  width: 100px;
+  padding: 2px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.home {
+  background-image: url("./Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.major {
+  background-color: black;
+}
+.major h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0;
+}
+.major-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  background-color: #1b1e27;
+  padding: 50px 0;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+h2 {
+  font-size: 24px;
+  padding: 10px 0;
+}
+.info-parent {
+    padding: 0 200px;
+}
+.info-parent__info {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right{
+    display: flex;
+  align-items: center;
+  gap: 38px;
+}
